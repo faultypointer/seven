@@ -1,0 +1,80 @@
+#+title: Computer Network and Security
+#+author: faultypointer
+
+* Syllabus
+** TODO Introduction to Computer Network (5 hours)
+*** TODO Uses of Computer Network
+*** TODO Networking model: client/server, p2p, active network
+*** TODO Protocols and Standards
+*** TODO OSI model and TCP/IP model
+*** TODO Comparison of OSI and TCP/IP model
+*** TODO Example networks: The Internet, X.25, Frame Relay, Ethernet, VoIP, NGN and MPLS, xDSL
+
+** TODO Physical Layer (5 hours)
+*** TODO Network monitoring: delay, latency, throughput
+*** TODO Transmission media: Twisted pair, Coaxial, Fiber optic, Line-of-sight, Satellite
+*** TODO Multiplexing, Circuit switching, Packet switching, VC Switching, Telecommunication switching system (Networking of Telephone exchanges)
+*** TODO ISDN: Architecture, Interface, and Signaling
+
+** TODO Data Link Layer (5 hours)
+*** TODO Functions of Data link layer
+*** TODO Framing
+*** TODO Error Detection and Corrections
+*** TODO Flow Control
+*** TODO Examples of Data Link Protocols: HDLC, PPP
+*** TODO The Medium Access Sub-layer
+*** TODO The channel allocation problem
+*** TODO Multiple Access Protocols
+*** TODO Ethernet
+*** TODO Networks: FDDI, ALOHA, VLAN, CSMA/CD, IEEE 802.3 (Ethernet), 802.4 (Token Bus), 802.5 (Token Ring), 802.1 (Wireless LAN)
+
+** TODO Network Layer (9 hours)
+*** TODO Internetworking & devices: Repeaters, Hubs, Bridges, Switches, Routers, Gateways
+*** TODO Addressing: Internet address, classful address
+*** TODO Subnetting
+*** TODO Routing: techniques, static vs. dynamic routing, routing table for classful address
+*** TODO Routing Protocols: RIP, OSPF, BGP, Unicast and multicast routing protocols
+*** TODO Routing algorithms: shortest path algorithm, flooding, distance vector routing, link state routing; Protocols: ARP, RARP, IP, ICMP
+
+** TODO Transport Layer (5 hours)
+*** TODO The transport service: Services provided to the upper layers
+*** TODO Transport protocols: UDP, TCP
+*** TODO Port and Socket
+*** TODO Connection establishment, Connection release
+*** TODO Flow control & buffering
+*** TODO Multiplexing & demultiplexing
+*** TODO Congestion control algorithms: Token Bucket and Leaky Bucket
+
+** TODO Application Layer (5 hours)
+*** TODO Web: HTTP & HTTPS
+*** TODO File Transfer: FTP, PuTTY, WinSCP
+*** TODO Electronic Mail: SMTP, POP3, IMAP
+*** TODO DNS
+*** TODO P2P Applications
+*** TODO Socket Programming
+*** TODO Application server concept: proxy caching, Web/Mail/DNS server optimization
+*** TODO Concept of traffic analyzer: MRTG, PRTG, SNMP, Packet tracer, Wireshark
+
+** TODO Introduction to IPv6 (4 hours)
+*** TODO IPv6 - Advantages
+*** TODO Packet formats
+*** TODO Extension headers
+*** TODO Transition from IPv4 to IPv6: Dual stack, Tunneling, Header Translation
+*** TODO Multicasting
+
+** TODO Network Security (7 hours)
+*** TODO Properties of secure communication
+*** TODO Principles of cryptography: Symmetric Key and Public Key
+*** TODO RSA Algorithm
+*** TODO Digital Signatures
+*** TODO Securing e-mail (PGP)
+*** TODO Securing TCP connections (SSL)
+*** TODO Network layer security: IPsec, VPN
+*** TODO Securing wireless LANs (WEP)
+*** TODO Firewalls: Application Gateway and Packet Filtering, IDS
+
+* Resources
+** Youtube
+- https://www.youtube.com/@bodhitreeiitb9763/playlists
+** Lab
+- https://github.com/Noconfiesenmiscodigos/IOE-Computer-Network-Lab-Code-Solutions

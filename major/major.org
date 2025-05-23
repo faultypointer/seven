@@ -1,0 +1,16 @@
+#+title: Major Project
+#+author: faultypointer
+
+* Major Project
+
+** Short Listed Ideas
+*** Static Analyzer for C using Rust borrow checker concept
+paper: https://dl.acm.org/doi/pdf/10.1145/3652032.3657579
+master thesis related to above paper: https://repositorio-aberto.up.pt/bitstream/10216/153606/3/647397.pdf
+books: Secure Programming with static analysis
+more resources:
+- https://www.opensourceforu.com/2011/09/joy-of-programming-technology-behind-static-analysis-tools/
+- https://stackoverflow.com/questions/4468309/how-to-build-a-static-code-analysis-tool
+- https://itnext.io/how-to-create-a-c-c-static-code-analysis-tool-3247f9341a43
+- https://www.freecodecamp.org/news/clang-ast-based-static-analysis-tools/
+going to be extremely hard

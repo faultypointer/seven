@@ -1,0 +1,69 @@
+#+title: Digital Signal Processing
+#+author: faultypointer
+
+* Info
+Difficulty: Extremely Hard
+Question types: Mostly Numerical
+
+* Syllabus
+** TODO Discrete time signals and systems (8 hours)
+*** TODO Discrete time signal, basic signal types
+*** TODO Energy signal, power signal
+*** TODO Periodicity of discrete time signal
+*** TODO Transformation of independent variable
+*** TODO Discrete time Fourier series and properties
+*** TODO Discrete time Fourier transform and properties
+*** TODO Discrete time system properties
+*** TODO Linear time invariant (LTI) system convolution sum, properties of LTI system
+*** TODO Frequency response of LTI system
+*** TODO Sampling of continuous time signal, spectral properties of sampled signal
+
+** TODO Z-transform (4 hours)
+*** TODO Definition, convergence of Z-transform and region of convergence
+*** TODO Properties of Z-transform (linearity, time shift, multiplication by exponential sequence, differentiation, time reversal, convolution, multiplication)
+*** TODO Inverse Z-transform by long division and partial fraction expansion
+
+** TODO Analysis of LTI system in frequency domain (6 hours)
+*** TODO Frequency response of LTI system, response to complex exponential
+*** TODO Linear constant coefficient difference equation and corresponding system function
+*** TODO Relationship of frequency response to pole-zero of system
+*** TODO Linear phase of LTI system and its relationship to causality
+
+** TODO Discrete filter structures (8 hours)
+*** TODO FIR filter, Structures for FIR filter (direct form, cascade, frequency sampling, lattice)
+*** TODO IIR filter, structures for IIR filter (direct form I, direct form II, cascade, lattice, lattice ladder)
+*** TODO Quantization effect (truncation, rounding), limit cycles and scaling
+
+** TODO FIR filter design (6 hours)
+*** TODO Filter design by window method, commonly used windows (rectangular window, Hanning window, Hamming window)
+*** TODO Filter design by Kaiser window
+*** TODO Filter design by frequency sampling method
+*** TODO Filter design using optimum approximation, Remez exchange
+
+** TODO IIR filter design (6 hours)
+*** TODO Filter design by impulse invariance method
+*** TODO Filter design using bilinear transformation
+*** TODO Design of digital low pass Butterworth filter
+*** TODO Properties of Chebyshev filter, properties of elliptic filter
+
+** TODO Discrete Fourier transform (7 hours)
+*** TODO Discrete Fourier transform (DFT) representation; properties of DFT (linearity, time shift, frequency shift, conjugation and conjugate symmetry, duality, convolution, multiplication), circular convolution
+*** TODO Fast Fourier Transform (FFT) algorithm (decimation in time algorithm, decimation in frequency algorithm)
+*** TODO Computational complexity of FFT algorithm
+
+* Resources
+** Books
+- Scientist and Engineer's guide to dsp
+- Discrete time signal processing by oppenheim
+
+** Youtube Videos
+- filter design playlist: https://www.youtube.com/playlist?list=PLN7f6qVfiv53vo61Jn52rDlQnmvfBJ3-L
+-
+
+** Full Course
+- https://www.youtube.com/playlist?list=PLitcWa0jogCM1Je7djdER97Fg_3Xqn7QN
+- https://www.youtube.com/playlist?list=PLtnAi4Q6UCpq-fxJwf6dIE-5psoJOtq9i
+- https://www.youtube.com/playlist?list=PLULQVvZuQOEYkrEuu37-5ZDFNCXIAaIb4
+
+** Lab
+- https://github.com/Noconfiesenmiscodigos/IOE-Digital-Signal-Analysis-And-Processing-Lab-Code-Solutions

@@ -1,0 +1,14 @@
+#+title: Seventh Semester
+#+author: faultypointer
+
+* Seventh Semester
+
+** Subjects
+- [[file:CNS][Computer Network and Security]]
+- [[file:DM][Data Mining (elective)]]
+- [[file:DS][Distributed Systems]]
+- [[file:DSP][Digital Signal Processing]]
+- [[file:EES][Energy Environment and Society]]
+- [[file:OM][Organization and Management]]
+- [[file:PM][ICT Project Management]]
+- [[file:major][Major Project]]
