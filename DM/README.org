@@ -1,0 +1,48 @@
+#+title: Data Mining
+#+author: faultypointer
+
+* Syllabus
+** TODO Introduction (2 hours)
+*** TODO Data Mining Origin
+*** TODO Data Mining & Data Warehousing basics
+
+** TODO Data Preprocessing (6 hours)
+*** TODO Data Types and Attributes
+*** TODO Data Pre-processing
+*** TODO OLAP & Multidimensional Data Analysis
+*** TODO Various Similarity Measures
+
+** TODO Classification (12 hours)
+*** TODO Basics and Algorithms
+*** TODO Decision Tree Classifier
+*** TODO Rule Based Classifier
+*** TODO Nearest Neighbor Classifier
+*** TODO Bayesian Classifier
+*** TODO Artificial Neural Network Classifier
+*** TODO Issues: Overfitting, Validation, Model Comparison
+
+** TODO Association Analysis (10 hours)
+*** TODO Basics and Algorithms
+*** TODO Frequent Itemset Pattern & Apriori Principle
+*** TODO FP-Growth, FP-Tree
+*** TODO Handling Categorical Attributes
+*** TODO Sequential, Subgraph, and Infrequent Patterns
+
+** TODO Cluster Analysis (9 hours)
+*** TODO Basics and Algorithms
+*** TODO K-means Clustering
+*** TODO Hierarchical Clustering
+*** TODO DBSCAN Clustering
+*** TODO Issues: Evaluation, Scalability, Comparison
+
+** TODO Anomaly / Fraud Detection (3 hours)
+
+** TODO Advanced Applications (3 hours)
+*** TODO Mining Object and Multimedia
+*** TODO Web-mining
+*** TODO Time-series data mining
+
+
+* Resources
+** Book
+- Data Mining: Concepts and Technique by Jiawei Han, Micheline Kamber, Jian Pei

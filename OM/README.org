@@ -1,0 +1,93 @@
+#+title: Organization and Management
+#+author: faultypointer
+
+* Syllabus
+** TODO Introduction
+*** TODO Organization (2 hours)
+**** TODO System approach applied to Organization
+**** TODO Necessity of Organization
+**** TODO Principles of Organization
+**** TODO Formal and Informal Organizations
+*** TODO Management (4 hours)
+**** TODO Functions of Management
+**** TODO Levels of Management
+**** TODO Managerial Skills
+**** TODO Importance of Management
+**** TODO Models of Management
+*** TODO Theory of Management (6 hours)
+**** TODO Scientific Management Approach
+**** TODO Administrative Management Approach
+**** TODO Behavioral Management Approach
+**** TODO Modern Management Theories
+*** TODO Forms of Ownership (2 hours)
+**** TODO Single Ownership – Advantages and limitations
+**** TODO Partnership – Types of Partners – Advantages and limitations
+**** TODO Joint Stock Company – Formation of Joint Stock Company – Advantages and limitations
+**** TODO Co–operative Societies – Types of Co–operatives – Advantages and limitations
+**** TODO Public Corporations – Advantages and limitations
+*** TODO Organizational Structure (2 hours)
+**** TODO Line Organization – Advantages and disadvantages
+**** TODO Functional Organization – Advantages and disadvantages
+**** TODO Line and Staff Organization – Advantages and disadvantages
+**** TODO Committee Organization – Advantages and disadvantages
+*** TODO Purchasing and Marketing Management (4 hours)
+**** TODO Purchasing – Introduction
+**** TODO Functions of Purchasing Department
+**** TODO Methods of Purchasing
+**** TODO Marketing – Introduction
+**** TODO Functions of Marketing
+**** TODO Advertising
+
+** TODO Personal Management (8 hours)
+*** TODO Introduction
+*** TODO Functions of Personal Management
+*** TODO Development of Personal Policy
+*** TODO Manpower Planning
+*** TODO Recruitment and Selection of manpower – Scientific selection
+*** TODO Training and Development of manpower
+*** TODO Job Analysis, Job Evaluation and Merit Rating
+*** TODO Wages and Incentives
+
+** TODO Motivation, Leadership and Entrepreneurship (6 hours)
+*** TODO Motivation
+**** TODO Human needs
+**** TODO Maslow’s Hierarchy of needs
+**** TODO Motivation – Introduction
+**** TODO Types of Motivation
+**** TODO Attitude Motivation; Group Motivation; Executive Motivation
+**** TODO Techniques of Motivation
+**** TODO Motivation Theories
+***** TODO McGregor’s Theory X – Y
+***** TODO Fear and Punishment Theory
+***** TODO Alderfer’s ERG Theory
+***** TODO MacClelland’s Theory of Learned Needs
+***** TODO Herzberg’s Hygiene Maintenance Theory
+***** TODO Vroom’s Expectancy/Valency Theory
+*** TODO Leadership – Introduction (2 hours)
+**** TODO Qualities of a Good Leader
+**** TODO Leadership Style
+**** TODO Blakes and Mouton’s Managerial Grid
+**** TODO Leadership Approach
+**** TODO Leadership Theories
+*** TODO Entrepreneurship – Introduction (2 hours)
+**** TODO Entrepreneurship Development
+**** TODO Entrepreneurial Characteristics
+**** TODO Need for Promotion of Entrepreneurship
+**** TODO Steps for Establishing Small Scale Unit
+
+** TODO Case Studies (2 hours)
+*** TODO Introduction
+*** TODO Objectives of Case Study
+*** TODO Phases of Case Study
+*** TODO Steps of Case Study
+*** TODO Types of Case Studies
+
+** TODO Management Information System (5 hours)
+*** TODO Data and Information
+*** TODO Need, Function and Importance of MIS
+*** TODO Evolution of MIS
+*** TODO Organizational Structure and MIS
+*** TODO Computers and MIS
+*** TODO Classification of Information Systems
+*** TODO Information Support for Functional Areas of Management
+*** TODO Organizing Information Systems

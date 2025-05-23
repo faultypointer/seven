@@ -1,0 +1,101 @@
+#+title: Distributed Systems
+#+author: faultypointer
+
+* Syllabus
+** TODO Introduction (4 hours)
+*** TODO Introduction to Distributed Systems
+*** TODO Examples of Distributed Systems
+*** TODO Main Characteristics
+*** TODO Advantages and Disadvantages of Distributed System
+*** TODO Design Goals
+*** TODO Main Problems
+*** TODO Models of Distributed System
+*** TODO Resource Sharing and the Web Challenges
+*** TODO Types of Distributed System: Grid, Cluster, Cloud
+
+** TODO Distributed Objects and File System (7 hours)
+*** TODO Introduction
+*** TODO Communication between distributed objects
+*** TODO Remote Procedure Call
+*** TODO Events And Notifications
+*** TODO Java RMI Case Study
+*** TODO Introduction to DFS
+*** TODO File Service Architecture
+*** TODO Sun Network File System
+*** TODO Introduction to Name Services
+*** TODO Name Services and DNS
+*** TODO Directory and Discovery Services
+*** TODO Comparison of Different Distributed File Systems
+
+** TODO Operating System Support (3 hours)
+*** TODO The operating system layer
+*** TODO Protection
+*** TODO Process and threads
+*** TODO Communication and invocation
+*** TODO Operating system architecture
+
+** TODO Distributed Heterogeneous Applications and CORBA (3 hours)
+*** TODO Heterogeneity in Distributed Systems
+*** TODO Middleware
+*** TODO Objects in Distributed Systems
+*** TODO The CORBA approach
+*** TODO CORBA services
+
+** TODO Time and State in Distributed Systems (5 hours)
+*** TODO Time in Distributed Systems
+**** TODO Physical Clocks
+**** TODO Logical Clocks
+**** TODO Vector Clocks
+**** TODO Clock Synchronization
+*** TODO Causal Ordering of Messages
+*** TODO Global State and State Recording
+*** TODO Distributed debugging
+
+** TODO Coordination and Agreement (4 hours)
+*** TODO Mutual Exclusion in Distributed Systems
+*** TODO Algorithms for Mutual Exclusion
+*** TODO Distributed Elections
+*** TODO Multicast communication
+*** TODO Consensus
+
+** TODO Replication (4 hours)
+*** TODO Reasons for Replication
+*** TODO Object Replication
+*** TODO Replication as Scaling Technique
+*** TODO Fault Tolerant Services
+*** TODO High Available Services
+*** TODO Transaction with Replicated Data
+
+** TODO Transaction and Concurrency Control (6 hours)
+*** TODO Transactions
+*** TODO Nested Transaction
+*** TODO Locks
+*** TODO Optimistic Concurrency Control
+*** TODO Timestamp Ordering
+*** TODO Comparison of Methods For Concurrency Control
+*** TODO Introduction to Distributed Transactions
+*** TODO Flat and Nested Distributed Transactions
+*** TODO Atomic Commit Protocols
+*** TODO Concurrency Control in Distributed Transactions
+*** TODO Distributed Deadlocks
+*** TODO Transaction Recovery
+
+** TODO Fault Tolerance (4 hours)
+*** TODO Introduction to Fault Tolerance
+*** TODO Process Resilience
+*** TODO Reliable Client Server Communication
+*** TODO Distributed Commit
+*** TODO Recovery
+
+** TODO Case Studies (5 hours)
+*** TODO CORBA
+*** TODO Mach
+*** TODO JINI
+*** TODO TIB/Rendezvous
+
+
+* Resources
+** Youtube
+- https://www.youtube.com/playlist?list=PLNPUF5QyWU8PydLG2cIJrCvnn5I_exhYx (lectures syllabys may not match ours)
+** Lab
+- https://github.com/Noconfiesenmiscodigos/IOE-Distributed-System-Lab-Code-Solutions

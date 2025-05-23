@@ -1,0 +1,54 @@
+#+title: Energy Environment and Society
+#+author: faultypointer
+
+* Syllabus
+** TODO Technology and Development (3 hours)
+*** TODO Introduction to Technology
+*** TODO Appropriate Technology
+*** TODO Role of Appropriate Technology in Transformation of Society
+*** TODO Importance of Technology Transfer
+*** TODO Impact of technology on Society
+
+** TODO Energy Basics (4 hours)
+*** TODO Importance of Energy in achieving Maslow’s hierarchy of Needs, Human Development Index and Energy Consumption
+*** TODO Current Energy Trends, Demand and Supply of Energy in World and Nepal
+*** TODO Introduction to Global warming, Clean Development Mechanism, and Sustainability Issues
+*** TODO Conventional and Non-Conventional/Renewable Energy Sources
+*** TODO Conventional Energy Sources: Fossil fuel, Nuclear Energy
+
+** TODO Renewable Energy Sources (14 hours)
+*** TODO Solar Energy
+**** TODO Solar radiation
+**** TODO Solar thermal energy
+**** TODO Solar Cell (Photovoltaic Technology)
+*** TODO Hydropower
+**** TODO Water sources and power and hydroelectric plants
+**** TODO Hydro Power Plant Classification (pico, micro, small, medium, large)
+*** TODO Wind Energy
+**** TODO Availability of Wind Energy sources
+**** TODO Wind turbines, wind parks and power control
+*** TODO Geothermal Energy
+**** TODO Sources of Geothermal Energy
+**** TODO Uses of Geothermal Energy
+*** TODO Bio-mass and Bio-energy
+**** TODO Synthetic fuels from the biomass
+**** TODO Thermo-chemical, physio-chemical and bio-chemical conversion
+**** TODO Bio-fuel cells
+*** TODO Hydrogen Energy and Fuel Cell
+**** TODO Basics of electrochemistry
+**** TODO Polymer membrane electrolyte (PEM) fuel cells
+**** TODO Solid oxide fuel cells (SOFCs)
+**** TODO Hydrogen production and storage
+**** TODO Coal-fired plants and integrated gassifier fuel cell (IGFC) systems
+
+** TODO Environmental Impact of Energy sources (4 hours)
+*** TODO Emission hazard
+*** TODO Battery hazard
+*** TODO Nuclear hazard
+
+** TODO Energy Storage (3 hours)
+*** TODO Forms of energy storage
+*** TODO Hybrid vehicles
+*** TODO Batteries
+
+** TODO Relevant International/national case studies (2 hours)

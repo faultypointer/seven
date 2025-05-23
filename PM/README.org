@@ -1,0 +1,169 @@
+#+title: ICT Project Management
+#+author: faultypointer
+
+* Syllabus
+** TODO Introduction (2 hours)
+*** TODO Definition of project and project management
+*** TODO Project objectives
+*** TODO Classification of projects
+*** TODO Project life cycle
+
+** TODO Project Management Body of Knowledge (4 hours)
+*** TODO Understanding of project environment
+*** TODO General management skill, effective and ineffective project managers
+*** TODO Essential interpersonal and managerial skills
+**** TODO Energized and initiator
+**** TODO Communication
+**** TODO Influencing
+**** TODO Leadership
+**** TODO Motivator
+**** TODO Negotiation
+**** TODO Problem solver
+**** TODO Perspective nature
+**** TODO Result oriented
+**** TODO Global illiteracies
+**** TODO Problem solving using problem trees
+
+** TODO Portfolio and Project Management Institutes’ (PMI) Framework (2 hours)
+*** TODO Portfolio
+*** TODO Project management office
+*** TODO Drivers of project success
+*** TODO Inhibitors of project success
+
+** TODO Project Management (4 hours)
+*** TODO Advantages of project management
+*** TODO Project management context as per PMI
+*** TODO Characteristics of project life cycles
+*** TODO Representative project life cycles
+*** TODO IT Product Development Life Cycle
+*** TODO Product Life Cycle and Project Life Cycle
+*** TODO System Development methodologies
+*** TODO Role and responsibilities of key project members
+
+** TODO Project and Organizational Structure (2 hours)
+*** TODO System view of project management
+*** TODO Functional organization
+*** TODO Matrix organization
+*** TODO Organizational structure influences on projects
+
+** TODO Project Management Process Groups (2 hours)
+*** TODO Project management processes
+*** TODO Overlaps of process groups in a phase
+*** TODO Mapping of project management process groups to area of knowledge
+
+** TODO Project Integration Management (4 hours)
+*** TODO Develop project charters
+*** TODO Develop preliminary project scope statement
+*** TODO Develop project management plan
+*** TODO Direct and manage project execution
+*** TODO Monitor and control project work
+*** TODO Integrated change control
+*** TODO Close project
+*** TODO Project scope management
+*** TODO Create Work Break Down Structure
+*** TODO Scope verification
+*** TODO Scope control
+
+** TODO Project Time Management (4 hours)
+*** TODO Activity definition
+*** TODO Decomposition of activities
+*** TODO Activity attributes
+*** TODO Activity sequencing
+*** TODO Precedence relationship
+*** TODO Network diagram
+*** TODO Precedence diagram method
+*** TODO Arrow diagramming method
+*** TODO Activity resources estimating
+*** TODO Determining resource requirements
+*** TODO Schedule development and control
+*** TODO Principles of scheduling
+*** TODO Milestones
+*** TODO Forward pass
+*** TODO Backward pass
+*** TODO Critical path method
+*** TODO Critical chain technique
+*** TODO Gantt chart
+*** TODO Schedule control
+
+** TODO Project Cost Management (4 hours)
+*** TODO Cost and project
+*** TODO Cost management
+*** TODO Cost estimating
+**** TODO Types of cost estimates
+**** TODO Estimating process and accuracy
+**** TODO Enterprise environmental factors
+**** TODO Organizational process assets
+**** TODO Cost estimating tools
+*** TODO Cost budgeting
+**** TODO Cost aggregation
+**** TODO Deriving budget from activity cost
+*** TODO Cost control process
+**** TODO Cost control methods
+**** TODO Earned value management
+**** TODO EVM benefits
+**** TODO Variance analysis
+
+** TODO Project Quality Management (3 hours)
+*** TODO Quality theories
+*** TODO Quality planning
+**** TODO Project quality requirements
+**** TODO Cost of quality
+**** TODO Quality management plan
+*** TODO Quality assurance
+**** TODO Quality audit
+**** TODO Approach to a quality audit
+*** TODO Quality control process
+**** TODO Control chart
+**** TODO Pareto charts
+**** TODO Testing of IT system
+**** TODO The test life cycle
+
+** TODO Project Communication Management (3 hours)
+*** TODO Importance of communication management
+*** TODO Communications planning process
+*** TODO Communication requirement analysis
+*** TODO Organizing and conducting effective meeting
+*** TODO Information distribution process
+*** TODO Performance reporting process
+*** TODO Integrated reporting system
+
+** TODO Project Risk Management (4 hours)
+*** TODO Understanding Risk
+*** TODO Project risk
+*** TODO Risk management planning process
+*** TODO Risk management plan
+*** TODO Risk identification
+*** TODO Risk identification techniques
+*** TODO Qualitative risk analysis process
+*** TODO Quantitative risk analysis process
+**** TODO Modeling techniques
+*** TODO Risk response planning
+**** TODO Resolution of risk
+**** TODO Strategies for negative risks or threats
+**** TODO Strategies for positive risks or opportunities
+*** TODO Risk monitoring and control process
+
+** TODO Project Procurement Management (3 hours)
+*** TODO Procurement management process flow
+*** TODO Plan purchases and acquisition process
+**** TODO Enterprise environmental factor
+**** TODO Organizational process assets
+*** TODO Plan contracting process
+**** TODO Standard forms
+**** TODO Evaluation criteria
+*** TODO Request seller response process
+*** TODO Select seller process
+*** TODO Contract administration process
+*** TODO Contract closure process
+
+** TODO Developing Custom Processes for IT Projects (3 hours)
+*** TODO Developing IT project management methodology
+*** TODO Moving forward with customized management processes
+*** TODO Certified Associate in Project Management
+*** TODO Project management maturity
+*** TODO Promoting project Excellency through awards and assessment
+*** TODO Certification process flow
+*** TODO Code of ethics
+*** TODO Future trends
+
+** TODO Balanced Scorecard and ICT Project Management (1 hour)
