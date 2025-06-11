@@ -1,0 +1,46 @@
+#+title: Introduction
+#+author: faultypointer
+
+* Question Pattern
+** TODO Data Mining Origin
+
+** TODO Data Mining & Data Warehousing basics
+- diff. between data mining and warehousing                          --> 1  --> 3
+- steps of KDD for data mining                                       --> 1  --> 7
+- explain data warehousing architecture with analytical processing   --> 1  --> 8
+
+* The Why?
+We are living in the digital age where terabytes of data are pouring in from every corner.
+**Data. Not Information**
+Thousands of hours worth of videos being uploaded to youtube, millions of photos shared on social media, millions of transactions done on big stores either online or offline
+
+Data Mining emerses as a necessary tool to extract useful information from the large volume of data.
+
+* The What?
+Process of getting valuable information from the large amount of data.
+Also called Knowledge Discovery from Data or KDD
+
+* Steps of KDD
+** Data Cleaning
+This is the process of removing noise and inconsistencies from the data.
+
+** Data Integration
+Data from multiple sources are combined.
+
+** Data Selection
+Here the only the data relevant to the analysis task are retrieved
+
+** Data Transformation
+Data are transformed and consolidated into forms appropriate for mining by performing summation or aggregation operation
+
+** Data Mining
+Intelligent methods are applied to extract the data patterns
+
+** Pattern evaluation
+Identify interesting patterns representing knowledge based on certain measure
+
+** Knowledge Presentation
+Present mined information to the users using visualization and knowledge representation techniques.
+
+* What is Data Warehouse?
+A Data Warehouse is a repository of information collected from multiple sources, stored under a unified schema, and usually residing at a single site.

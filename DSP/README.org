@@ -6,7 +6,7 @@ Difficulty: Extremely Hard
 Question types: Mostly Numerical
 
 * Syllabus
-** TODO Discrete time signals and systems (8 hours)
+** TODO [[file:digital-time-signals-and-systems.org][Discrete time signals and systems]]
 *** TODO Discrete time signal, basic signal types
 *** TODO Energy signal, power signal
 *** TODO Periodicity of discrete time signal

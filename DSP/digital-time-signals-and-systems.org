@@ -1,0 +1,45 @@
+#+title: Digital Time Signals And Systems
+#+author: faultypointer
+
+* Question Pattern
+** TODO Discrete time signal, basic signal types  [27]
+- find odd and even part of given signal (diagram)                                            --> 4  --> 12
+- plot the given signal/sequence                                                              --> 4  --> 11
+- define even and odd type discrete time signals (eg)                                         --> 2  --> 4
+** TODO Energy signal, power signal [19]
+- define with examples                                                                        --> 3  --> 7
+- det. whether the given signal is energy or time                                             --> 2  --> 5
+- find energy and power of given signal                                                       --> 1  --> 5
+- compare                                                                                     --> 1  --> 2
+** TODO Periodicity of discrete time signal [24]
+- det. whether the signal is periodic or non periodic (find fundamental period if periodic)   --> 5  --> 17
+- period of the given signal                                                                  --> 2  --> 7
+** TODO Transformation of independent variable
+** TODO Discrete time Fourier series and properties [21]
+- explain process of calculating fourier series coefficients                                  --> 2  --> 7
+- find fourier series coefficient of given signal                                             --> 2  --> 7
+- find the expression of discrete fourier series                                              --> 1  --> 4
+- drichlet's conditions for fourier series                                                    --> 1  --> 3
+** TODO Discrete time Fourier transform and properties [8]
+- explain fourier transform multiplication property                                           --> 1  --> 4
+- diff. between fourier series and transform                                                  --> 1  --> 4
+** TODO Discrete time system properties [38]
+- determine whether the signal is linear or not                                               --> 6  --> 15.5
+- det. whether the signal is (other properties)                                               --> 3  --> 10
+- determine whether the signal is time invariant or not                                       --> 5  --> 7.5
+- write about properties of dts (linearity, time inv, mem., causality, stability)             --> 1  --> 5
+** TODO Linear time invariant (LTI) system convolution sum, properties of LTI system [97]
+- find the o/p of LTI system having impulse response, input (check the answer                 --> 13 --> 68
+- find convolution between two signals                                                        --> 3  --> 15
+- find the o/p of LTI system using graphical method                                           --> 1  --> 5
+- perform circular convolution                                                                --> 1  --> 4
+- properties of LTI system                                                                    --> 1  --> 2
+- significane of convolution summation in digital signal analysis                             --> 1  --> 2
+- define LTI system                                                                           --> 1  --> 1
+** TODO Frequency response of LTI system [10]
+- find the freq. response of system (also plot)                                               --> 2  --> 10
+** TODO Sampling of continuous time signal, spectral properties of sampled signal [6]
+- what is sampling                                                                            --> 1  --> 1
+- how spectrum of cts and spectrum of signal obtained from sampling related (exp. with diag)  --> 1  --> 5
+
+* Discrete Time Signal, Basic Signal Types
