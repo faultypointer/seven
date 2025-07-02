@@ -1,0 +1,285 @@
+#+DATE:
+#+PROPERTY: header-args:ipython :kernel venv-dsp :session dsp
+#+OPTIONS: toc:nil num:nil title:nil author:nil
+#+LATEX_HEADER: \usepackage{graphicx}
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \geometry{a4paper, margin=1in}
+#+LATEX_HEADER: \usepackage{multicol}
+#+LATEX_HEADER: \usepackage{array}
+#+LATEX_HEADER: \usepackage{longtable}
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \pagestyle{empty}
+#+LATEX_HEADER: \newcommand{\threelines}{\rule{1pt}{3cm}\hspace{0.5cm}\rule{1pt}{3cm}\hspace{0.5cm}\rule{1pt}{3cm}}
+
+
+#+LATEX: \begin{center}
+#+LATEX: \includegraphics[width=0.3\textwidth]{res/TULogo.png}
+#+LATEX: \end{center}
+
+#+LATEX: \begin{center}
+\textbf{TRIBHUWAN UNIVERSITY} \\
+\textbf{INSTITUTE OF ENGINEERING} \\
+\textbf{PURWANCHAL CAMPUS, DHARAN}
+#+LATEX: \end{center}
+
+
+#+BEGIN_EXPORT latex
+\begin{center}
+\vspace{2cm}
+\raisebox{0.5cm}{\rule{2pt}{5cm}}\hspace{1cm}\rule{2pt}{6cm}\hspace{1cm}\raisebox{0.5cm}{\rule{2pt}{5cm}}
+\vspace{2cm}
+\end{center}
+#+END_EXPORT
+
+#+LATEX: \vspace{1cm}
+#+LATEX: \begin{center}
+#+LATEX: \textbf{Lab report of DSAP on Implement Basic Discrete Signals}
+#+LATEX: \end{center}
+#+LATEX: \vspace{1cm}
+
+
+\begin{tabular}{p{0.45\linewidth} p{0.45\linewidth}}
+\textbf{Submitted to:} & \textbf{Submitted by:} \\
+Mazhar Ali Sir & Name: Sudesh Subedi \\
+Department of Computer Engineering & Group: BCT "D" \\
+& Roll: PUR078BCT088 \\
+\end{tabular}
+
+
+#+LATEX: \newpage
+* Title
+Implement Basic Discrete Signals
+
+* Theory
+
+** Signal
+A signal is defined as a function of one or more independent variables that conveys information about the behavious of some phenomenon.
+Example: A speech signal can be represented by pressure as a function of time.
+** Unit Impulse
+Unit Impulse signal only exists at the time instant zero with amplitude of unity. It is also called delta function. It is represented by $\delta[n]$.
+
+It is defined as
+$$
+\delta[n]\ = \ \begin{cases}
+1, & n = 0 \\
+0, & n \neq 0
+\end{cases}
+$$
+
+#+CAPTION: Unit Impulse signal
+[[./res/unitimpulse.png]]
+
+** Unit Step
+The Unit Step signal starts from time instant zero and continues with an amplitude of unity for all future time steps. It is denoted by $u[n]$.
+
+It is defined as
+$$
+u[n]\ = \ \begin{cases}
+1, & n \geq 0 \\
+0, & n < 0
+\end{cases}
+$$
+
+#+CAPTION: Unit Step signal
+[[./res/unitstep.png]]
+
+** Ramp
+The Ramp signal increases linearly with time for all $n \geq 0$. It can be considered as a cumulative sum of unit step signals. It is denoted by $r[n]$.
+
+It is defined as
+$$
+r[n]\ = \ \begin{cases}
+n, & n \geq 0 \\
+0, & n < 0
+\end{cases}
+$$
+
+#+CAPTION: Unit Ramp signal
+[[./res/ramp.png]]
+
+** Real Exponential
+A Real Exponential signal is represented as $x[n] = a^n$ where $a$ is a real number. The behavior of the signal (growing, decaying, or constant) depends on the value of $a$.
+
+It is defined as
+$$
+x[n] = a^n
+$$
+Common cases:
+- $0 < a < 1$: decaying exponential
+- $a > 1$: growing exponential
+- $a = 1$: constant signal
+
+#+CAPTION: Real Exponential signal
+[[./res/realexponential.png]]
+
+** Sinusoid
+A discrete-time Sinusoidal signal is periodic and oscillates over time. It is defined using sine or cosine functions. A basic sinusoid is given by
+
+$$
+x[n] = A \cos(\omega n + \phi)
+$$
+
+where:
+- $A$ is the amplitude
+- $\omega$ is the angular frequency in radians/sample
+- $\phi$ is the phase
+
+#+CAPTION: Sinusoidal signal
+[[./res/sinusoidal.png]]
+
+#+LATEX: \newpage
+
+** Complex Exponential
+The Complex Exponential signal combines both real and imaginary parts and is of the form
+
+$$
+x[n] = e^{j\omega n} = \cos(\omega n) + j \sin(\omega n)
+$$
+
+This is a fundamental signal in DSP and forms the basis of Fourier analysis.
+
+#+CAPTION: Complex Exponential signal
+[[./res/complexexponential.png]]
+
+
+#+LATEX: \newpage
+
+* Implementation
+We use python libraries like NumPy and Matplotlib as well as thinkdsp module for generating waves and signals as well as plotting them.
+
+#+begin_src ipython :session venv-dsp :results raw drawer
+from thinkdsp import Wave, CosSignal, ComplexSinusoid
+import matplotlib.pyplot as plt
+import numpy as np
+#+end_src
+
+** Unit Impulse
+#+begin_src ipython :python ../.venv/bin/python :session *dsp-lab1* :results raw drawer
+N = 20
+ys = np.zeros(N)
+ys[0] = 1
+
+samplerate = 1
+ts = np.arange(N) / samplerate
+plt.figure(figsize=(5, 5))
+wave = Wave(ys=ys, ts=ts, framerate=samplerate)
+wave.plot_vlines()
+#+end_src
+
+#+RESULTS:
+[[file:unitimpulse.svg]]
+
+
+*** Plot
+
+[[./res/outimpulse.png]]
+
+#+LATEX: \newpage
+
+** Unit Step
+#+begin_src python
+N = 20
+ys = np.ones(N)
+
+samplerate = 1
+ts = np.arange(N) / samplerate
+
+plt.xticks(np.arange(N))
+plt.yticks([0, 1, 2])
+wave = Wave(ys=ys, ts=ts, framerate=framerate)
+wave.plot_vlines()
+#+end_src
+
+
+*** Plot
+
+[[./res/outstep.png]]
+
+
+#+LATEX: \newpage
+
+** Ramp
+#+begin_src python
+N = 20
+ys = np.arange(N)
+
+samplerate = 1
+ts = ys / samplerate
+
+plt.xticks(ys)
+plt.yticks(ys)
+wave = Wave(ys=ys, ts=ts, framerate=framerate)
+wave.plot_vlines()
+#+end_src
+
+
+*** Plot
+
+[[./res/outramp.png]]
+
+
+#+LATEX: \newpage
+
+** Real Exponential
+#+begin_src python
+N = 40
+a = 0.88
+ys = np.array([a**n for n in range(N)])
+samplerate = 1
+ts = np.arange(N) / samplerate
+
+wave = Wave(ys=ys, ts=ts, framerate=framerate)
+wave.plot_vlines()
+#+end_src
+
+
+*** Plot
+
+[[./res/outrealexp.png]]
+
+
+#+LATEX: \newpage
+** Sinusoidal
+#+begin_src python
+sig1 = CosSignal(freq=5)
+sig = sig1
+wave = sig.make_wave(duration=1, framerate=100)
+wave.plot_vlines()
+#+end_src
+
+
+*** Plot
+
+[[./res/outsinu.png]]
+
+
+#+LATEX: \newpage
+
+** Complex Exponential
+#+begin_src python
+comp = ComplexSinusoid(freq=0.1, amp=1.0)
+wave = comp.make_wave(duration=10, framerate=2)
+real_part = np.real(wave.ys)
+imag_part = np.imag(wave.ys)
+ts = wave.ts
+
+# Plot as discrete samples using stem plot
+plt.stem(ts, real_part, linefmt='b-', markerfmt='bo', basefmt=' ', label='Real Part')
+plt.stem(ts, imag_part, linefmt='r-', markerfmt='ro', basefmt=' ', label='Imaginary Part')
+
+plt.title("Discrete Complex Exponential")
+plt.xlabel("Time (s)")
+plt.ylabel("Amplitude")
+plt.grid(True)
+plt.legend()
+plt.show()
+#+end_src
+
+
+*** Plot
+
+[[./res/outcompexp.png]]
+
+
+* Results and Conclusion
+In this lab, we implemented basic signals like unit impulse, unit step, ramp, sinusoidal etc with the help of popular python libraries like NumPy and Matplotlib as well as thinkdsp module for some signal and wave generation.
